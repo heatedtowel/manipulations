@@ -1,0 +1,68 @@
+html, * {
+  padding: 0;
+  margin: 0; 
+  box-sizing: border-box;
+}
+
+#navBar {
+  display: flex;
+  align-items: center;
+  padding: 1.5rem;
+  background-color: bisque;
+}
+
+#navBarCenter {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 1180px;
+  margin: 0 auto;
+}
+
+#logo {
+
+}
+
+#navLinks {
+  display: flex;
+}
+
+#navLinks > a {
+  text-decoration: none;
+  color: red;
+  padding: 0 1rem;
+}
+
+#mainContent {
+  background-color: #999;
+  height: calc(100vh - 75px);
+  padding-top: 3rem;
+}
+
+#results {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: blueviolet;
+  padding: 2rem;
+  margin: 2rem 0;
+}
+
+.input {
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(156, 158, 25);
+  padding: 2.5rem;
+}
+
+#input > div > h1 {
+  flex: 1 0 100%;
+  padding: 1rem;
+}
+
+h1 {
+  margin-bottom: 1rem;
+}

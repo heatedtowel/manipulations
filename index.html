@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <title>Document</title>
+</head>
+
+<body>
+  <nav id="navBar">
+    <div id="navBarCenter">
+      <span>
+        <h1>Welcome</h1>
+      </span>
+      <div>
+        <span id="navLinks">
+          <a href="">Nav1</a>
+          <a href="">Nav2</a>
+          <a href="">Nav3</a>
+        </span>
+      </div>
+    </div>
+  </nav>
+
+  <section id="mainContent">
+    <div class="input" id="inputValue">
+      <div>
+        <h1>Please input the values</h1>
+      </div>
+      <input type="text">
+    </div>
+    <div class="input" id="inputType">
+      <div>
+        <h1>What are you trying to manipulate?</h1>
+      </div>
+      <select name="manipulationChoice" id="manipulationChoice" required>
+        <option value="string">String</option>
+        <option value="array">Array</option>
+        <option value="object">Object</option>
+      </select>
+    </div>
+    <div class="input" id="inputChoice">
+      <div>
+        <h1>What do you want to do to it?</h1>
+      </div>
+      <select name="manipulationChoice" id="manipulationChoice" required>
+        <option value="string">Reverse It</option>
+        <option value="array">Turn it into an array</option>
+        <option value="object">Turn it into an object</option>
+      </select>
+    </div>
+    <div id="results">
+      <div>Restults go here</div>
+    </div>
+  </section>
+</body>
+
+</html>
